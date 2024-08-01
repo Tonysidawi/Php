@@ -27,6 +27,7 @@ $age =20;
 //echo $age;
 
 echo floor($pi); 
+echo ceil($pi);
 
 
 

@@ -60,10 +60,6 @@ foreach($products as $product){
 
                     <?php } ?>
 
-
-
-
-
                 <?php }?>
         </ul>
     </div>

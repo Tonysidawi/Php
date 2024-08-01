@@ -12,10 +12,10 @@ $name = 'Luke';
 
 //echo $name[0];
 
-echo strlen($name);
-echo strtoupper($name);
-echo strtolower($name);
-echo str_replace('L', 'D', $name);
+//echo strlen($name);
+//echo strtoupper($name);
+//echo strtolower($name);
+//echo str_replace('L', 'D', $name);
 
 
 ?>

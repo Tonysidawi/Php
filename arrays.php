@@ -34,6 +34,7 @@ $ninjaOne = ['shuang' => 'green', 'yoshi' => 'yellow', 'ken' => 'red'];
 $ninjaOne['tree']='brown';
 $ninjaOne['yoshi']='green';
 print_r($ninjaOne);
+echo count($ninjaOne);
  
 
 

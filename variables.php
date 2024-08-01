@@ -18,6 +18,7 @@ $name ="Peter"
     <h1>User Profile Pages</h1>
     <div><?php echo $name; ?></div>
     <div><?php echo $age; ?></div>
+    <div><?php echo NAME; ?></div>
     
 </body>
 </html>
