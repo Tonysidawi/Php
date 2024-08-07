@@ -1,6 +1,6 @@
 <?php
 
-include('config/db_connect.php');
+include('C:\Users\willi\php_projects/tutorial/templates/config/db_connect.php');
 
 // WRITE QUERY FOR ALL PIZZAS
 $sql = 'SELECT title, ingredients, id FROM pizzas ORDER BY created_at';
@@ -28,7 +28,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html lang="en">
     <?php
-include ('header.php');
+include ('C:\Users\willi\php_projects/tutorial/templates/header.php');
 ?>
 
 <h4 class = center grey-text>Pizzas!</h4>
@@ -63,7 +63,7 @@ include ('header.php');
 </div>
 
 <?php 
-include ('footer.php'); 
+include ('C:\Users\willi\php_projects/templates/footer.php'); 
 ?> 
 
 

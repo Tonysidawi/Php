@@ -1,6 +1,6 @@
 <?php
 
-include ('config/db_connect.php');
+include ('C:\Users\willi\php_projects/tutorial/templates/config/db_connect.php');
 
 $title = $ingredients = $email = '';
 $errors = array('email' => '', 'title' => '', 'ingredients' => '');
@@ -65,7 +65,7 @@ if (isset($_POST['submit'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include ('header.php'); ?>
+<?php include ('C:\Users\willi\php_projects/tutorial/templates/header.php'); ?>
 
 <section class="container grey-text">
     <h4 class="center"> Add a Pizza </h4>
@@ -85,6 +85,6 @@ if (isset($_POST['submit'])) {
     </form>
 </section>
 
-<?php include ('footer.php'); ?>
+<?php include ('C:\Users\willi\php_projects/tutorial/templates/footer.php'); ?>
 
 </html>
