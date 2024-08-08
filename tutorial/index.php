@@ -28,7 +28,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html lang="en">
     <?php
-include ('C:\Users\willi\php_projects/tutorial/templates/header.php');
+include ('templates/header.php');
 ?>
 
 <h4 class = center grey-text>Pizzas!</h4>
@@ -37,6 +37,7 @@ include ('C:\Users\willi\php_projects/tutorial/templates/header.php');
         <?php foreach($pizzas as $pizza): ?> 
             <div class ="col s6 md3">
                 <div class = "card z-depth-0">
+                    <img src="img\pizza1.png" class="pizza">
                     <div class = "card-content center">
                         <h6><?php echo htmlspecialchars($pizza['title']); ?></h6>
                        <ul>
@@ -46,24 +47,19 @@ include ('C:\Users\willi\php_projects/tutorial/templates/header.php');
                        </ul>
                     </div>
                     <div class = "card-action right-align" >
-                        <a class = "brand-text" href="#">more info"></a>
+                        <a class = "brand-text" href="details.php?id=<?php echo $pizza['id']; ?>">more info"></a>
                     </div>
                 </div>
             </div>
 
             <?php endforeach; ?>
 
-            <?php if(count($pizza) >= 3):  ?>
-                <p> there are 2 or more pizzas</p>
-                <?php  else : ?>
-                    <p>there are less than 3 pizzas</p>
-
-                    <?php endif ?>
+            
         </div>
 </div>
 
 <?php 
-include ('C:\Users\willi\php_projects/templates/footer.php'); 
+include ('templates/footer.php'); 
 ?> 
 
 
